@@ -4,3 +4,4 @@ build
 dist
 img
 bower_components
+.project
