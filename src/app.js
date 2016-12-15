@@ -5,7 +5,6 @@ var arr = ["aa", "bb", "ccc"];
 arr.map((item, index) => {
 	return item;
 });
-console.log("cc");
 
 if(ENV !== 'production') {
 	// Enable LiveReload
