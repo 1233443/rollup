@@ -1,0 +1,69 @@
+/*@import url("normalize.css");*/
+
+
+/*
+	LESS中使用@符声明变量，比如@color: #ccc;
+	Stylus中使用$符声明变量，比如$color=#ccc;
+	Sass中使用$符声明变量，比如$color: #ccc;
+*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	outline: none;
+	box-sizing: border-box;
+}
+
+
+/*header*/
+
+$headerHeight:3rem;
+$borderColor:0.1rem solid #ddd;
+$HeaderColor:#ff0000;
+body {
+	background-color: #fff;
+	font-size: 13px;
+}
+
+header {
+	height: $headerHeight;
+	border: $borderColor;
+	text-align: center;
+	line-height: $headerHeight;
+	background-color: $HeaderColor;
+	color: #ffffff;
+}
+
+
+/*#app{
+	border-radius: 10px;
+	border: 1px solid #ddd;
+	 display: flex;
+}
+#app{
+	@if 3<5{
+		background-color: blue;
+	}else{
+		background-color: red;
+	}
+}
+@keyframes animationExample {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.animateThis {
+    animation: animationExample 2s;
+    display: flex;
+}
+.thisWillChange {
+    will-change: transform;
+}
+.rgbaFallback {
+    background: rgba(0,0,0,0.5);
+}*/

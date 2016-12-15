@@ -1,0 +1,7 @@
+#app{}
+#app::before{
+	content: "前";
+}
+#app::after{
+	content:"后"
+}
