@@ -1,11 +1,16 @@
-##npm install -g livereload (需要安装一些全局的模块)
+
+# rollup
+> rollup 椤圭洰鎬荤粨
 
 
+### 濡備綍浣跨敤
+```
 npm install 
 
 bower install
 
 npm run dev
+```
 
 
 
